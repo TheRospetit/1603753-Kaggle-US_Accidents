@@ -17,7 +17,7 @@ US-Accidents puede utilizarse para numerosas aplicaciones, como la predicción d
 # Data cleaning
 **Al analizar estos datos nos encontramos con ciertos atributos que contienen muchos Nans, dependiendo de su tamaño y el valor al que hacen referencia decidimos si eliminar el atributo directamente o rellenar los espacios con el valor de la mediana del atributo.**
 
-**Atributo Number**
+### **Atributo Number**
 
 Para este atributo observamos la dispersión de sus valores mediante un boxplot.  
 
@@ -27,7 +27,7 @@ Al tener valores disparados lo que hacemos es reducir la muestra de valores elim
 ![Final Number Image](Images/Image2.png "Final Number Image") 
   
 
-**Atributos con nans**
+### **Atributos con nans**
 
 Mostramos los atributos con valores nan en una imágen de color  
 ![Inicial Nan Image](Images/Image3.png "Inicial Nan Image")  
