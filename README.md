@@ -37,9 +37,9 @@ Al ver esta distribución decido eliminar por completo la columna Number para as
 
 Las columnas con nans en este nuevo caso se concentran en las columnas Wind_Chill(F) y Precipitation(in), por lo tanto en este caso lo que haremos será eliminar aquellas filas que contengan valores vacíos en una de estas dos columnas, pasando de un tamaño del dataset de **2845342** filas a **2225687** filas. Donde los datos actuales quedan de la siguiente manera:  
 
-![Final Nans Image](Images/Image5.png "Final Nans Image")
+![Final Nans Image](Images/Image5.png "Final Nans Image")  
 Como podemos ver ya no tenemos valores vacíos en nuestros datos con lo cual podemos iniciar el estudio.
-
+<img src="Images/Image5.png" alt="Esquema del Hardware" />
 ---
 
 # Estudios de distribuciones
