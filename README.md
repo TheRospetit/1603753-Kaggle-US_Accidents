@@ -28,19 +28,17 @@ Al tener valores disparados lo que hacemos es reducir la muestra de valores elim
   
 
 **Atributos con nans**
-Mostramos los atributos con valores nan en una imágen de color  
 
-![Inicial Nan Image](Images/Image3.png "Inicial Nan Image")
-  
+Mostramos los atributos con valores nan en una imágen de color  
+![Inicial Nan Image](Images/Image3.png "Inicial Nan Image")  
+
 Al ver esta distribución decido eliminar por completo la columna Number para así acabar con los problemas que puede generar.  
-![Nan no Number Image](Images/Image4.png "Nan no Number Image")
+![Nan no Number Image](Images/Image4.png "Nan no Number Image")  
 
 Las columnas con nans en este nuevo caso se concentran en las columnas Wind_Chill(F) y Precipitation(in), por lo tanto en este caso lo que haremos será eliminar aquellas filas que contengan valores vacíos en una de estas dos columnas, pasando de un tamaño del dataset de **2845342** filas a **2225687** filas. Donde los datos actuales quedan de la siguiente manera:  
 
 ![Final Nans Image](Images/Image5.png "Final Nans Image")
 Como podemos ver ya no tenemos valores vacíos en nuestros datos con lo cual podemos iniciar el estudio.
-
-
 
 ---
 
