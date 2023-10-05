@@ -20,17 +20,19 @@ US-Accidents puede utilizarse para numerosas aplicaciones, como la predicción d
 **Atributo Number**
 
 Para este atributo observamos la dispersión de sus valores mediante un boxplot
-<img src="Image1/image.png" align="left" width="500" alt="Inicial Number Image"/> 
+<img src="images/Image1.png" align="left" width="500" alt="Inicial Number Image"/> 
 Al tener valores disparados lo que hacemos es reducir la muestra de valores eliminando aquellos en los que este atributo se dispara, seguramente debido a un error.
-<img src="Image2/image.png" align="left" width="500" alt="Final Number Image"/> 
+<img src="images/Image2.png" align="left" width="500" alt="Final Number Image"/> 
 
 **Atributos con nans**
 Mostramos los atributos con valores nan en una imágen de color
-<img src="Image3/image.png" align="left" width="500" alt="Inicial Nans Image"/> 
+<img src="images/Image3.png" align="left" width="500" alt="Inicial Nans Image"/> 
 Al ver esta distribución decido eliminar por completo la columna Number para así acabar con los problemas que puede generar.
-<img src="Image4/image.png" align="left" width="500" alt="Nans without Number Image"/> 
+<img src="images/Image4.png" align="left" width="500" alt="Nans without Number Image"/> 
 Las columnas con nans en este nuevo caso se concentran en las columnas Wind_Chill(F) y Precipitation(in), por lo tanto en este caso lo que haremos será eliminar aquellas filas que contengan valores vacíos en una de estas dos columnas, pasando de un tamaño del dataset de **2845342** filas a **2225687** filas. Donde los datos actuales quedan de la siguiente manera:
-<img src="Image5/image.png" align="left" width="500" alt="Nans without WC and PR Image"/> Como podemos ver ya no tenemos valores vacíos en nuestros datos con lo cual podemos iniciar el estudio.
+<img src="images/Image5.png" align="left" width="500" alt="Nans without WC and PR Image"/> Como podemos ver ya no tenemos valores vacíos en nuestros datos con lo cual podemos iniciar el estudio.
+
+---
 
 # Estudios de distribuciones
 
