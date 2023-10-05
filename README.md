@@ -41,7 +41,6 @@ Las columnas con nans en este nuevo caso se concentran en las columnas Wind_Chil
 
 Como podemos ver ya no tenemos valores vacíos en nuestros datos con lo cual podemos iniciar el estudio.
 
-<img src="Images/Image5.png" alt="Final Nans Image" width="300" />
 ---
 
 # Estudios de distribuciones
